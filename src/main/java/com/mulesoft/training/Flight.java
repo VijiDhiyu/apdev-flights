@@ -2,6 +2,7 @@ package com.mulesoft.training;
 
 import java.util.Comparator;
 
+@SuppressWarnings("unused")
 public class Flight implements java.io.Serializable, Comparable<Flight> {
 	
 	String flightCode;
